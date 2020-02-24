@@ -1,0 +1,13 @@
+.triangulo {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background: #007bbf;
+}
+
+.box{
+    
+}
