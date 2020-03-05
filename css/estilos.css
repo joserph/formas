@@ -6,11 +6,11 @@
 }
 
 .galeria{
-    font-family: 'open sans';
+    /*font-family: 'open sans';*/
     background-color: rgba(0, 0, 0, 0.06)    ;
 }
 
-.galeria h1{
+.galeria h2{
     text-align: center;
     margin: 20px 0 15px 0;
     font-weight: 300;
@@ -23,11 +23,12 @@
 
 .contenedor-imagenes{
     display: flex;
-    width: 85%;
+    width: 90%;
     margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
     border-radius: 3px;
+    padding-top: 7PX;
 }
 
 .contenedor-imagenes .imagen{
@@ -68,6 +69,7 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    color: #000000;
 }
 
 .imagen:hover .overlay{
@@ -83,7 +85,7 @@
 
 @media screen and (max-width:900px){
     .overlay h2{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
